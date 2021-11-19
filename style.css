@@ -1,0 +1,102 @@
+body{
+    background: rgb(233,170,26);
+background: linear-gradient(90deg, rgba(233,170,26,1) 0%, rgba(244,169,52,1) 35%, rgba(0,212,255,1) 100%);
+font-family:'Courier New', Courier, monospace;
+
+
+}
+#container{
+    border-top: 0.2px solid;
+    border-radius: 20px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 0px 20px;
+    display:  flex;
+    /* padding: 20px; */
+    margin: auto;
+    height: 520px;
+    width: 900px;
+    margin-top: 100px;
+    /* margin-left: 240px; */
+}
+
+#player1{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 50%;    
+    /* background : transparent; */
+    padding: 60px;
+    /* margin-left: 120px; */
+
+}
+
+#player2{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 50%;    
+    /* background : transparent; */
+    padding: 60px;
+    /* margin-left: 120px; */
+
+}
+#player1 div,#player2 div{
+    text-align: center;
+
+    font-size: 30px;
+}
+#player1 h2,#player2 h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#som1,#som2{
+    margin: auto;
+    color: white;
+    background-color: rgb(184, 87, 87);
+    width: 100px;
+    padding: 5px;
+    margin-top: 120px;
+    border-radius: 5px;
+}
+#score1,#score2{
+    color: brown;
+    margin-top: 90px;
+    font-size: 40px;
+
+}
+#lance, #passe{
+    left : 45%;
+}
+
+#container #lance{
+    top: 59%;
+}
+
+#container #passe{
+    top: 69%;
+
+}
+.boutton{
+    position: absolute;
+    left: 45%;
+
+}
+.boutton button{
+    background-color: transparent;
+    border: none;
+    width: 89px;
+    position: absolute;
+    height: 50px;
+    border-radius: 20px;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+#nv{
+    top:130px;
+}
+#domino{
+    top:290px;
+    left : 46%;
+}
+
